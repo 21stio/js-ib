@@ -18,15 +18,31 @@
 			margin:0;
 			padding:0;
 			overflow: hidden;
-			background: #fff;
+			background: #000;
 		}
 		canvas {
 			margin:auto;
 		}
+		.nav {
+			position: absolute;
+			right: 10px;
+			top: 10px;
+			z-index: 1;
+		}
+		.nav a {
+			text-decoration: none;
+			font-family: 'Roboto Mono';
+			font-weight: bold;
+			font-size: 14px;
+			color: #fff;
+			margin-right: 30px;
+
+			z-index: 1;
+		}
 		.heading {
 			text-align: center;
 			width: 100%;
-			font-family: 'Open Sans', cursive;
+			font-family: 'Rozha One', cursive;
 			margin: 0;
 			color: #fff;
 			font-size: 100px;
@@ -36,20 +52,21 @@
 		}
 		.subheading {
 			text-align: center;
-			top: 40%;
-			margin-top: 110px;
+			top: 41.5%;
+			margin-top: 100px;
 			width: 100%;
-			margin-left: 40px;
+			margin-left: 70px;
 			color: #fff;
 			position: absolute;
-			font-family: 'Open Sans', cursive;
+			font-family: 'Roboto Mono', cursive;
 			font-size: 20px;
 			z-index: 1;
 		}
 	</style>
 </head>
 <body>
-<h1 class="heading">Capital 21</h1>
+<p class="nav"><a href="">About</a> <a href="">Github</a></p>
+<h1 class="heading">Capital <span style="margin-left: -15px; letter-spacing: -5px; font-size: 90px; font-family: 'Roboto Mono'; font-weight: bold;">21</span></h1>
 <p class="subheading">Leveraging the future</p>
 </body>
 </html>
